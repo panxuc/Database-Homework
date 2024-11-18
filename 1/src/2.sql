@@ -1,0 +1,17 @@
+insert into dept (deptno, dname, head) values (20, '计算机系', 'T001');
+insert into dept (deptno, dname, head) values (23, '电子系', 'T002');
+insert into dept (deptno, dname, head) values (30, '自动化系', 'T003');
+insert into stu (stno, name, age, monit, macr, micr, edate, deptno) values ('S001', 'WANG DONG', 20, 'S004', 85, 15, '09-01-2021', 20);
+insert into stu (stno, name, age, monit, macr, micr, edate, deptno) values ('S002', 'LI HUA', 21, 'S004', 80, null, '09-01-2021', 20);
+insert into stu (stno, name, age, monit, macr, micr, edate, deptno) values ('S003', 'XIAO MING', 22, 'S004', 90, 10, '09-01-2020', 23);
+insert into stu (stno, name, age, monit, macr, micr, edate, deptno) values ('S004', 'LIU YANG', 23, 'S004', 95, 20, '09-01-2022', 20);
+insert into stu (stno, name, age, monit, macr, micr, edate, deptno) values ('S005', 'WANG FANG', 20, 'S008', 88, 12, '09-01-2022', 30);
+insert into stu (stno, name, age, monit, macr, micr, edate, deptno) values ('S006', 'ZHANG WEI', 21, 'S008', 78, null, '09-01-2022', 23);
+insert into stu (stno, name, age, monit, macr, micr, edate, deptno) values ('S007', 'GAO MING', 22, 'S008', 100, 20, '09-01-2021', 20);
+insert into stu (stno, name, age, monit, macr, micr, edate, deptno) values ('S008', 'XI QIN', 23, 'S008', 20, 100, '09-01-2023', 23);
+insert into teacher (tno, name, age, wdate, deptno) values ('T001', 'ZHANG SAN', 45, '08-01-2000', 20);
+insert into teacher (tno, name, age, wdate, deptno) values ('T002', 'LI SI', 50, '07-01-1995', 23);
+insert into teacher (tno, name, age, wdate, deptno) values ('T003', 'WANG WU', 40, '09-01-2005', 30);
+insert into teacher (tno, name, age, wdate, deptno) values ('T004', 'ZHAO LIU', 65, '06-01-1980', 20);
+insert into teacher (tno, name, age, wdate, deptno) values ('T005', 'CHEN QI', 55, '06-01-1990', 23);
+insert into teacher (tno, name, age, wdate, deptno) values ('T006', 'WU BA', 45, '06-01-2000', 30);

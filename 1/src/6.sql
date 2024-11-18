@@ -1,0 +1,1 @@
+create view dept_view(deptno, dname, head_name) as select d.deptno, d.dname, t.name from dept d join teacher t on d.head = t.tno

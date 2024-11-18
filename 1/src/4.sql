@@ -1,0 +1,1 @@
+create view ee_stu as select * from stu where deptno = 23

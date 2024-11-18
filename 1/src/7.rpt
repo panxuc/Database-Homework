@@ -1,0 +1,8 @@
+deptno      dname              head_name            
+----------- ------------------ -------------------- 
+20          计算机系               ZHANG SAN
+23          电子系                LI SI
+30          自动化系               WANG WU
+
+(3 row(s) affected)
+

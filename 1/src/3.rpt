@@ -1,0 +1,101 @@
+deptno      dname              head       
+----------- ------------------ ---------- 
+20          计算机系               T001      
+23          电子系                T002      
+30          自动化系               T003      
+
+(3 row(s) affected)
+
+name                 age         macr        
+-------------------- ----------- ----------- 
+GAO MING             22          100
+LIU YANG             23          95
+XIAO MING            22          90
+WANG FANG            20          88
+WANG DONG            20          85
+LI HUA               21          80
+ZHANG WEI            21          78
+XI QIN               23          20
+
+(8 row(s) affected)
+
+name                 
+-------------------- 
+XIAO MING
+ZHANG WEI
+XI QIN
+
+(3 row(s) affected)
+
+name                 
+-------------------- 
+WANG DONG
+LI HUA
+LIU YANG
+WANG FANG
+ZHANG WEI
+GAO MING
+
+(6 row(s) affected)
+
+deptno      stunum      avcr        
+----------- ----------- ----------- 
+20          4           103
+23          3           99
+30          1           100
+
+(3 row(s) affected)
+
+stno       name                 age         monit      macr        micr        edate                       deptno      
+---------- -------------------- ----------- ---------- ----------- ----------- --------------------------- ----------- 
+S004       LIU YANG             23          S004       95          20          2022-09-01 00:00:00.000     20
+S007       GAO MING             22          S008       100         20          2021-09-01 00:00:00.000     20
+
+(2 row(s) affected)
+
+stno       name                 age         monit      macr        micr        edate                       deptno      
+---------- -------------------- ----------- ---------- ----------- ----------- --------------------------- ----------- 
+S003       XIAO MING            22          S004       90          10          2020-09-01 00:00:00.000     23
+
+(1 row(s) affected)
+
+deptno      dname              
+----------- ------------------ 
+20          计算机系
+20          计算机系
+23          电子系
+20          计算机系
+30          自动化系
+23          电子系
+20          计算机系
+23          电子系
+
+(8 row(s) affected)
+
+stno       
+---------- 
+S004      
+S005      
+S006      
+S007      
+S008      
+
+(5 row(s) affected)
+
+stno       name                 
+---------- -------------------- 
+S001       WANG DONG
+S002       LI HUA
+S004       LIU YANG
+S007       GAO MING
+
+(4 row(s) affected)
+
+name                 dname              
+-------------------- ------------------ 
+ZHAO LIU             计算机系
+CHEN QI              电子系
+WU BA                自动化系
+
+(3 row(s) affected)
+
